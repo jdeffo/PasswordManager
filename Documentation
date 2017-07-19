@@ -1,2 +1,30 @@
 7/18/17
 Initial Commit
+
+Flow:
+-Command line argument: account
+-Copies password associated to that account to the clipboard
+-Past to website
+
+Version Plan:
+V1: Basic functionality, store accounts and passwords in memory
+    --Fake passwords until this is secure
+V2: Store accounts and passwords on Mac, load into dictionary
+V3: Encrypt storage on Mac, decrypt on load into dictionary
+V4: Optimize security
+V5: Mobile
+
+Passwords to track:
+Facebook
+Twitter
+Instagram
+LinkedIN
+Gmail (jdefossett, jdefosse, jsd6695)
+Github
+Dropbox
+Droplet
+
+Completed: V1 and V2
+    - Program prompts the user for the account, reads in accounts and passwords
+    stored in passwords.txt, loads them into a dictionary, and copies the
+    associated password if it exists
